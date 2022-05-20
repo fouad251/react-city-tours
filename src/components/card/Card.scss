@@ -1,0 +1,58 @@
+@import "../../index.scss";
+.card{
+    background: lightcyan;
+    border-radius: 1.5rem;
+    padding: .3rem;
+    width: 35vw;
+    img{
+        width: 100%;
+        display: block;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+}
+
+.image-container{
+    position: relative;
+    
+}
+.icon{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    transition: all .3s linear;
+    opacity: 0;
+}
+.image-container:hover .icon{
+    opacity: 1;
+}
+.card-info{
+    padding: 1.5rem;
+    h2{
+        color: $primaryGreen;
+        text-transform: uppercase;
+    }
+    h3{
+        text-transform: capitalize;
+        color: #000;
+        margin: 20px 0;
+    }
+    h4{
+        text-transform: capitalize;
+        span{
+            margin-left: 1.3rem;
+            color: $primaryGreen;
+            font-size: 20px;
+        }
+    }
+    p{
+        
+        color: #000;
+        transition: all .3s linear;
+        opacity: 0;
+    }
+    .ppp{
+        margin-top: 3rem;
+        opacity:1;
+    }
+}

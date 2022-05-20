@@ -1,0 +1,10 @@
+
+.city-wrapper{
+    background: grey;
+    width: 100%;
+   min-height: 100%;
+   padding: .5rem 10%;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 10px;
+}
